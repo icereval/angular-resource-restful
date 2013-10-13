@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('ngRestfulResource', ['ngResource']).factory('ngRestfulResource', ['$resource', function ($resource) {
+angular.module('ngRestfulResource', ['ngResource']).factory('$restfulResource', ['$resource', function ($resource) {
     return function (url, params, methods) {
         methods = angular.extend({
             update: { method: 'PUT', isArray: false },
