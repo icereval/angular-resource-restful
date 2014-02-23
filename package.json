@@ -1,0 +1,17 @@
+{
+  "name": "angular-restful-resource",
+  "description": "Simple AngularJS Restful Resource extension for ngResource.",
+  "url": "https://github.com/icereval/angular-restful-resource",
+  "keywords": ["angular", "restful", "resource"],
+  "author": "Michael Haselton <icereval@gmail.com>",
+  "dependencies": {
+    "angular-resource": ">=1"
+  },
+  "main": "angular-restful-resource.js",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/icereval/angular-restful-resource.git"
+  }
+}
