@@ -3,7 +3,7 @@
 angular.module('ngRestfulResource', ['ngResource']).factory('$restfulResource', ['$resource', function ($resource) {
     return function (url, params, methods) {
         methods = angular.extend({
-            update: { method: 'PUT', isArray: false },
+            update: { method: 'PUT' },
             create: { method: 'POST' }
         }, methods);
 
