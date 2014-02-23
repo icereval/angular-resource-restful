@@ -1,4 +1,4 @@
 angular-restful-resource
 ========================
 
-AngularJS Restful Resource extension for ngResource
+Simple AngularJS Restful Resource extension for ngResource
