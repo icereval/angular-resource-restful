@@ -10,10 +10,10 @@ angular.module('ngRestfulResource', ['ngResource']).factory('$restfulResource', 
         var resource = $resource(url, params, methods);
 
         resource.prototype.$save = function () {
-            if (!this.id || !this._id) {
-                this.$create.apply(this, arguments);
-            } else {
+            if (this.id || this._id) {
                 this.$update.apply(this, arguments);
+            } else {
+                this.$create.apply(this, arguments);
             }
         };
 
