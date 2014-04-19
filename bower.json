@@ -1,8 +1,7 @@
 {
   "name": "angular-resource-restful",
   "description": "AngularJS ngResource Restful extension",
-  "keywords": ["angular", "restful", "resource", "ngResource"],
-  "url": "https://github.com/icereval/angular-resource-restful",
+  "homepage": "https://github.com/icereval/angular-resource-restful",
   "author": "Michael Haselton <icereval@gmail.com>",
   "main": "./angular-resource-restful.js",
   "version": "0.0.2",
@@ -13,5 +12,5 @@
   },
   "dependencies": {
     "angular-resource": "*"
-  },
+  }
 }
